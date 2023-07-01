@@ -1,0 +1,10 @@
+CREATE TABLE `pelanggan` (
+  name VARCHAR(100),
+  email VARCHAR(100),
+  mobile VARCHAR(15)
+);
+
+INSERT INTO `pelanggan` (`name`, `email`, `mobile`) VALUES
+(`Dewi`, `dewii@gmail.com`, `081238766742`),
+(`Jarot`, `jarot123@gmail.com`, `081238766432`),
+(`Rendi`, `rendi@gmail.com`, `081238766723`);
